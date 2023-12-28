@@ -1,5 +1,9 @@
 version: "3.9"
 
+networks:
+  screenmatch-network:
+    driver: bridge
+
 services:
 
   db-postgres:
@@ -9,3 +13,16 @@ services:
       POSTGRES_PASSWORD: 1234
     ports:
       - "5432:5432"
+    networks:
+      - screenmatch-network
+
+  screenmatch-api:
+    image: screenmatch-api
+    environment:
+      DB_HOST: db-postgres
+    ports:
+      - "8080:8081"
+    networks:
+      - screenmatch-network
+    depends_on:
+      - db-postgres
