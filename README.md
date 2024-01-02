@@ -1,16 +1,15 @@
-![thumbnail-Formação Java](https://github.com/jacqueline-oliveira/3356-java-screenmatch-web/assets/66698429/d1e7755b-0a61-411f-bb99-9fcfda44f00c)
+![thumbnail-Formação Java (4)](https://user-images.githubusercontent.com/66698429/226751112-f79aaa28-16c9-4561-8a15-0ac62ec9cb44.png)
 
-# Java: criando sua primeira API e conectando ao front
 
-Projeto desenvolvido no terceiro curso da formação Avançando com Java da Alura
+# Java: consumindo uma API, gravando arquivos e lidando com erros
+
+Projeto desenvolvido no quarto curso da formação Java da Alura
 
 
 ## 🔨 Objetivos do projeto
 
-- Atualizar o projeto ScreenMatch, criado inicialmente com linha de comando, para se transformar em uma API REST;
-- Entender a estrutura MVC no desenvolvimento de aplicações Web;
-- Criar e mapear rotas utilizando as anotações do Spring;
-- Utilizar boas práticas e entender o conceito de DTO (Data Transfer Object); 
-- Conectar dados disponibilizados pelo back-end à uma aplicação front-end, disponibilizada nesse [link](https://github.com/jacqueline-oliveira/3356-java-web-front) 
-- Tratar erros de CORS na disponibilização de dados;
-- Fornecer uma experiência fullstack, demonstrando o fluxo ponta a ponta da aplicação.
+- Aprender a consumir uma API HTTP em Java;
+- Entender como receber e converter dados no formato JSON; 
+- Utilizar a biblioteca externa GSON para fazer serialização e desserialização de dados;
+- Lidar com erros e tratar exceções;
+- Conhecer o pacote java.io para manipulação de arquivos.
